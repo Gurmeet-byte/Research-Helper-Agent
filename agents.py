@@ -81,7 +81,7 @@ from tools import web_search ,scrape_url
 from dotenv import load_dotenv
 import os 
 load_dotenv()
-
+api_key=os.getenv('GOOGLE_API_KEY')
 #model setup 
 llm=ChatGoogleGenerativeAI(model='gemini-3.1-flash-lite',temperature=0)
 
