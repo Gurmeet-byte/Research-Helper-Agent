@@ -80,10 +80,10 @@ from langchain_core.output_parsers import StrOutputParser
 from tools import web_search ,scrape_url 
 from dotenv import load_dotenv
 import os 
-load_dotenv(r'C:\Users\abc\Multi-Agent-System\.env')
+load_dotenv()
 
 #model setup 
-llm=ChatGoogleGenerativeAI(model='gemini-2.0-flash',temperature=0)
+llm=ChatGoogleGenerativeAI(model='gemini-3.1-flash-lite',temperature=0)
 
 
 #1st agent 
