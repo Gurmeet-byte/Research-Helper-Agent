@@ -1,0 +1,84 @@
+# =========================
+# CORE LANGCHAIN ECOSYSTEM
+# =========================
+
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-google-genai>=2.0.0
+langgraph>=0.2.0
+
+# =========================
+# LLM + AGENT SUPPORT
+# =========================
+
+google-generativeai>=0.8.0
+tiktoken>=0.7.0
+
+# =========================
+# SEARCH TOOL
+# =========================
+
+tavily-python>=0.5.0
+
+# =========================
+# WEB SCRAPING
+# =========================
+
+beautifulsoup4>=4.12.3
+requests>=2.32.0
+lxml>=5.2.0
+html5lib>=1.1
+
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
+
+python-dotenv>=1.0.1
+
+# =========================
+# DATA VALIDATION
+# =========================
+
+pydantic>=2.8.0
+
+# =========================
+# ASYNC + HTTP CLIENTS
+# =========================
+
+aiohttp>=3.10.0
+httpx>=0.27.0
+
+# =========================
+# FASTAPI (OPTIONAL API LAYER)
+# =========================
+
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# =========================
+# LOGGING + DEBUGGING
+# =========================
+
+rich>=13.8.0
+loguru>=0.7.2
+
+# =========================
+# PARSING / UTILITIES
+# =========================
+
+python-dateutil>=2.9.0
+tenacity>=9.0.0
+
+# =========================
+# VECTOR / MEMORY (OPTIONAL)
+# =========================
+
+faiss-cpu>=1.8.0
+
+# =========================
+# NOTEBOOK SUPPORT (OPTIONAL)
+# =========================
+
+jupyter>=1.1.1
+ipykernel>=6.29.5
